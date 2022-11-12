@@ -4,5 +4,6 @@ class AddNetworkToShows < ActiveRecord::Migration[6.1]
   # we make the change.
   def change
     add_column :shows, :network_id, :integer
+    
   end
 end
